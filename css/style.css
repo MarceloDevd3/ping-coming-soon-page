@@ -53,9 +53,7 @@ body {
     animation: loadEfect ease-in 2s ;
 }
 
-button {
-    cursor: pointer;
-}
+
 
 header, figure, footer {
     display: flex;
@@ -146,6 +144,7 @@ button {
     font-size: 17px;
     background-color: var(--Blue);
     color: #fff;
+    cursor: pointer;
 }
 
 button:hover {
