@@ -53,6 +53,10 @@ body {
     animation: loadEfect ease-in 2s ;
 }
 
+button {
+    cursor: pointer;
+}
+
 header, figure, footer {
     display: flex;
     flex-direction: column;
@@ -79,11 +83,12 @@ header, figure, footer {
 h1 {
     font-size: 1.7em;
     margin-bottom: 0.5em;
+    color: var(--Gray);
 }
 
 .light-txt {
     font-weight: normal;
-    color: var(--Gray);
+
 }
 
 .sub-txt {
